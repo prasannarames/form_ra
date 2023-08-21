@@ -1,6 +1,5 @@
 import { Modal, Form, Button, Input, Radio, Upload } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
-import "./FormModal.css";
 
 const FormModal = ({ visible, onFinish, onCancel }) => {
   // file upload
